@@ -1,0 +1,98 @@
+body {
+    background-color: #EEE3CB;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color: 967E76;
+    font-family: Tahoma;
+    font-size: 15px;
+  }
+  
+  input {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 20px;
+  }
+  
+  h1, p {
+    text-align: center;
+    margin: 1em auto;
+  }
+  
+  h1{
+    font-size: 23px;
+  }
+  
+  p{
+    font-size: 13px;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    border-color: #B7C4CF;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 1em 0 0;
+    vertical-align: middle;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    resize: none;
+  }
+  
+  input,
+  textarea, select{
+    background-color: #D7C0AE;
+    border: 1px solid #B7C4CF;
+    color: #967E76;
+  }
+  
+  .outline {
+    width: unset;
+    margin: 0 1em 0 0;
+    vertical-align: middle;
+    float: left;
+    position: relative;
+    top: 1px;
+  }
+  
+  input:first-of-type {
+    top: 6px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: 1em;
+    font-size: 1.1rem;
+    min-width: 300px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-color: #B7C4CF;
+    color: #967E76;
+  }

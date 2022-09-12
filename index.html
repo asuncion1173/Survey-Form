@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Survey for September 9 Date</h1>
+  <p id="description">
+    This is a survey form for me and my jowa's date last September 9, 2022.
+  </p>
+
+  <form id="survey-form">
+    <fieldset>
+      <legend>Details</legend>
+      <label id="name-label"
+        >Full Name:
+        <input
+          id="name"
+          type="text"
+          placeholder="Full Name of Jake or Faye"
+          required
+      /></label>
+      <label id="email-label"
+        >Enter Email:
+        <input
+          id="email"
+          type="email"
+          placeholder="Email ni bebelabskqouh"
+          required
+      /></label>
+      <label id="number-label"
+        >Enter Age:
+        <input
+          id="number"
+          type="number"
+          min="17"
+          max="21"
+          placeholder="Age"
+          required
+      /></label>
+    </fieldset>
+    <fieldset>
+      <legend>What's your favorite date moment</legend>
+      <select id="dropdown">
+        <option value=""></option>
+        <option value="1">Dentist Trip</option>
+        <option value="2">Snack Shack FT</option>
+        <option value="3">Streetfood FT</option>
+        <option value="4">Siomai FT</option>
+        <option value="5">Halohalo FT</option>
+        <option value="6">Spicy moments</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Did u enjoy the date? :3</legend>
+      <label for="option1"
+        ><input
+          type="radio"
+          name="optionselect"
+          id="option1"
+          value="option1"
+          class="inline"
+        />Yes</label
+      >
+      <label for="option2"
+        ><input
+          type="radio"
+          name="optionselect"
+          id="option2"
+          value="option2"
+          class="inline"
+        />Ofcourse</label
+      >
+      <label for="option3"
+        ><input
+          type="radio"
+          name="optionselect"
+          id="option3"
+          value="option3"
+          class="inline"
+          checked
+        />Wala kang choice. Dapat na enjoy mo.</label
+      >
+    </fieldset>
+    <fieldset>
+      <legend>Bucket List</legend>
+      <input id="check1" type="checkbox" value="check1" class="outline" />
+      <label for="check1">Museum Date</label>
+      <input id="check2" type="checkbox" value="check2" class="outline" />
+      <label for="check2">Drink Date</label>
+      <input id="check3" type="checkbox" value="check3" class="outline" />
+      <label for="check3">Out of town Date</label>
+      <input id="check4" type="checkbox" value="check4" class="outline" />
+      <label for="check4">Movie Date</label>
+      <input id="check5" type="checkbox" value="check5" class="outline" />
+      <label for="check5">Amusement Park Date</label>
+    </fieldset>
+    <fieldset>
+      <label
+        >Comments lods<textarea placeholder="Comments mo lods"></textarea>
+      </label>
+    </fieldset>
+    <input type="submit" value="Submit" id="submit" />
+  </form>
+</body>
